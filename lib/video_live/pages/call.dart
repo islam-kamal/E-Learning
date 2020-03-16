@@ -300,15 +300,17 @@ class _CallPageState extends State<CallPage> {
         title: Text('Agora Flutter QuickStart'),
       ),
       backgroundColor: Colors.black,
-      body: Center(
-        child: Stack(
-          children: <Widget>[
-            _viewRows(),
-            _panel(),
-            _toolbar(),
-          ],
-        ),
-      ),
+      body:
+          Center(
+            child: Stack(
+              children: <Widget>[
+                _viewRows(),
+                _panel(),
+                _toolbar(),
+              ],
+            ),
+          ),
+    
     );
   }
 }

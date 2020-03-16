@@ -27,7 +27,7 @@ class IndexState extends State<IndexPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Agora Flutter QuickStart'),
+        title: Text('Course Code'),
       ),
       body: Center(
         child: Container(
@@ -35,6 +35,11 @@ class IndexState extends State<IndexPage> {
           height: 400,
           child: Column(
             children: <Widget>[
+          Padding(
+          padding: const EdgeInsets.symmetric(vertical: 20),
+          child: Text('Enter Course Code',
+            style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold),),
+          ),
               Row(
                 children: <Widget>[
                   Expanded(
